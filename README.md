@@ -1,5 +1,4 @@
-# mustard 
--
+# mustard
 =======================================================================
 Python library Imports
 =======================================================================
@@ -13,9 +12,36 @@ Python library Imports
 --and read them into a database with that schema
 =======================================================================
 
--- dataLoad.py
+-- dataLoad.py (main script)
 -- db_config.py
 -- db_info.ini  (This contains connection details to posgreSQL database)
+
+
+Run the process
+-----------------
+
+1.	Clone the git repo or unzip the file in the attached email
+
+https://github.com/olat-dev-world/mustard.git
+
+2.	install the following python libraries (if required) 
+
+-- sudo pip install flatten_json
+-- sudo pip install json
+
+3.	create the schema and tables in PostgreSQL 
+
+see DATA MODELLING section below
+
+
+4.	from (1), change to mustard folder and run the following script
+
+ 	python3 dataLoad.py
+
+5.	Run the following script for the assessment reports
+
+See REPORT/Assessment QUERIES
+
 
 =======================================================================
 -- DATA MODELLING
