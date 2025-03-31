@@ -75,7 +75,7 @@ CREATE TABLE cricket.teams (
     team_id INT NOT null unique,
     name VARCHAR(100) not null,
     created_date timestamp default now(),
-    PRIMARY KEY(row_id)
+    PRIMARY KEY(team_id)
 );
 
 
@@ -85,7 +85,7 @@ CREATE TABLE cricket.players (
     hand VARCHAR(100) not null,
     name VARCHAR(100) not null,
     created_date timestamp default now(),
-    PRIMARY KEY(row_id)
+    PRIMARY KEY(player_id)
 );
 
 
